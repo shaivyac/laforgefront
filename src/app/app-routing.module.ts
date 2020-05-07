@@ -6,13 +6,16 @@ import { SignInAccountComponent } from './sign-in-account/sign-in-account.compon
 import { CongratulationsComponent } from './congratulations/congratulations.component';
 import { CongratsOrganizerComponent } from './congrats-organizer/congrats-organizer.component';
 import { VolunteerComponent } from './volunteer/volunteer.component';
+import { VolunteerAccountComponent } from './volunteer-account/volunteer-account.component';
 
 const routes: Routes = [
   { path: '', component: CreateAccountComponent },
   { path: 'SignIn', component: SignInAccountComponent },
   { path: 'congratulations-volunteer', component: CongratulationsComponent },
   { path: 'congratulations-organizer', component: CongratsOrganizerComponent },
-  { path: 'volunteer', component: VolunteerComponent }
+  { path: 'volunteer', component: VolunteerComponent },
+  { path: 'volunteer-account', component: VolunteerAccountComponent }
+
 ];
 
 @NgModule({
